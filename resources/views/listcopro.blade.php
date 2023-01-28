@@ -108,7 +108,7 @@
                               
                             </tr>
                             @empty
-                            <td>Pas de copro disponible !!!</td>
+                            <td>Pas de copro disponible maintenant!!!</td>
                             @endforelse
                         </tbody>
                     </table>
