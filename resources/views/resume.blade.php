@@ -8,8 +8,9 @@
     <div style="margin: 0 auto;display: block;width: 500px;">
         <table width="100%" border="1">
             <tr>
-                <td colspan="2" >
-                    <img src="{{$imagePath}}" style="width:200px;"> 
+                <td colspan="2">
+                    <img src="{{$imagePath}}" style="width:400px;" style="height:200px;"> 
+                    
                 </td>
             </tr>
             <tr>

@@ -9,12 +9,13 @@ class PdfGeneratorController extends Controller
 {
     //
   //composer require barryvdh/laravel-dompdf
+  //php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
     public function index() 
     {
         $data = [
             'imagePath'    => public_path('img/juge.jpg'),
             'name'         => 'Kone N\'gangolo',
-            'address'      => 'Cote d\Ivoire',
+            'address'      => 'Cote d\'Ivoire',
             'mobileNumber' => '58 749 747',
             'email'        => 'konengangolo@email.com',
             'objet'        => 'Conflit de dossier',
